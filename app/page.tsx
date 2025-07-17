@@ -292,9 +292,9 @@ export default function Home() {
                   <h5 className="font-semibold mb-2">Check Actual Formats:</h5>
                   <ol className="space-y-1 list-decimal list-inside">
                     <li>Open Network tab in DevTools</li>
-                    <li>Filter by "Img" to see only images</li>
+                    <li>Filter by &quot;Img&quot; to see only images</li>
                     <li>Reload the page and scroll to this section</li>
-                    <li>Look at the "Type" column - you'll see:</li>
+                    <li>Look at the &quot;Type&quot; column - you&apos;ll see:</li>
                     <li className="ml-4 text-xs">• JPEG cards: image/jpeg</li>
                     <li className="ml-4 text-xs">• Next.js cards: image/webp or image/avif</li>
                   </ol>
@@ -302,17 +302,17 @@ export default function Home() {
                 <div>
                   <h5 className="font-semibold mb-2">Compare Actual File Sizes:</h5>
                   <ol className="space-y-1 list-decimal list-inside">
-                    <li>Check the "Size" column in Network tab</li>
+                    <li>Check the &quot;Size&quot; column in Network tab</li>
                     <li>Notice Next.js optimized images are smaller</li>
-                    <li>Right-click → "Inspect" on each image</li>
-                    <li>Next.js images have `/_next/image?url=...` URLs</li>
-                    <li>Regular `&lt;img&gt;` tags load original URLs</li>
+                    <li>Right-click → &quot;Inspect&quot; on each image</li>
+                    <li>Next.js images have &apos;/_next/image?url=...&apos; URLs</li>
+                    <li>Regular &apos;img&apos; tags load original URLs</li>
                   </ol>
                 </div>
               </div>
               <div className="mt-4 p-3 bg-yellow-100 rounded-lg">
                 <p className="text-xs text-yellow-700">
-                  <strong>Real Demo:</strong> The first two cards use regular `&lt;img&gt;` tags (unoptimized), while the last two use Next.js `&lt;Image&gt;` components (optimized). Check the Network tab to see the actual difference!
+                  <strong>Real Demo:</strong> The first two cards use regular &apos;img&apos; tags (unoptimized), while the last two use Next.js `&lt;Image&gt;` components (optimized). Check the Network tab to see the actual difference!
                 </p>
               </div>
             </div>
@@ -486,9 +486,9 @@ export default function Home() {
                   <h5 className="font-semibold mb-2">Performance Tab</h5>
                   <ol className="space-y-1 list-decimal list-inside">
                     <li>Open DevTools → Performance</li>
-                    <li>Click "Record" and reload page</li>
+                    <li>Click &quot;Record&quot; and reload page</li>
                     <li>Stop recording after page loads</li>
-                    <li>Look for "LCP" marker in timeline</li>
+                    <li>Look for &quot;LCP&quot; marker in timeline</li>
                     <li>Check if images are causing delays</li>
                   </ol>
                 </div>
@@ -506,7 +506,7 @@ export default function Home() {
                   <h5 className="font-semibold mb-2">Application Tab</h5>
                   <ol className="space-y-1 list-decimal list-inside">
                     <li>DevTools → Application</li>
-                    <li>Go to "Storage" section</li>
+                    <li>Go to &quot;Storage&quot; section</li>
                     <li>Check image caching behavior</li>
                     <li>Verify Next.js image cache</li>
                     <li>Monitor cache hit rates</li>
@@ -515,7 +515,7 @@ export default function Home() {
               </div>
               <div className="mt-4 p-3 bg-green-100 rounded-lg">
                 <p className="text-xs text-green-700">
-                  <strong>Advanced tip:</strong> Use the "Rendering" tab to enable "Layout Shift Regions" to visually
+                  <strong>Advanced tip:</strong> Use the &quot;Rendering&quot; tab to enable &quot;Layout Shift Regions&quot; to visually
                   see if images are causing layout shifts.
                 </p>
               </div>

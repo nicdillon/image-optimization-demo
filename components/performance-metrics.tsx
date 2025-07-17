@@ -91,7 +91,7 @@ export function PerformanceMetrics() {
             <ol className="space-y-1 list-decimal list-inside">
               <li>Open Chrome DevTools (F12)</li>
               <li>Go to Network tab</li>
-              <li>Filter by "Img" to see only images</li>
+              <li>Filter by &quot;Img&quot; to see only images</li>
               <li>Reload page and compare file sizes</li>
               <li>Look for WebP/AVIF formats being served</li>
             </ol>
@@ -102,14 +102,14 @@ export function PerformanceMetrics() {
               <li>Open DevTools → Lighthouse tab</li>
               <li>Run Performance audit</li>
               <li>Check LCP, CLS, and FID scores</li>
-              <li>Review "Opportunities" for image optimization</li>
+              <li>Review &quot;Opportunities&quot; for image optimization</li>
               <li>Compare before/after optimization</li>
             </ol>
           </div>
         </div>
         <div className="mt-4 p-3 bg-indigo-100 rounded-lg">
           <p className="text-xs text-indigo-700">
-            <strong>Pro tip:</strong> Use the Network tab's "Disable cache" option to see true load times, and throttle
+            <strong>Pro tip:</strong> Use the Network tab&apos;s &quot;Disable cache&quot; option to see true load times, and throttle
             your connection to simulate slower networks.
           </p>
         </div>
