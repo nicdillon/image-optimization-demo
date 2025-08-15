@@ -73,6 +73,30 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Demo Navigation */}
+        <div className="text-center mb-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="/lazy-loading"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
+              🚀 Loading Priority Demo
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a 
+              href="/formats"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium"
+            >
+              📊 Format Comparison Demo
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
         {/* Updated background for content sections */}
         <div className="bg-white rounded-t-3xl px-8 py-16 -mx-4">
           {/* Unoptimized vs Optimized Comparison */}
